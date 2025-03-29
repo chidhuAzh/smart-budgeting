@@ -56,3 +56,74 @@ body {
     color: #3B82F6;
   }
 }
+
+/* DatePicker styles */
+.react-datepicker {
+  background-color: #1f2937 !important; /* bg-gray-800 */
+  color: white !important;
+  border-color: #374151 !important; /* border-gray-700 */
+  border-width: 1px !important;
+  border-radius: 0.5rem !important; /* rounded-lg */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important; /* shadow-lg */
+}
+
+.react-datepicker__header {
+  background-color: #1f2937 !important; /* bg-gray-800 */
+  border-color: #374151 !important; /* border-gray-700 */
+}
+
+.react-datepicker__current-month, 
+.react-datepicker-time__header, 
+.react-datepicker-year-header {
+  color: white !important;
+}
+
+.react-datepicker__day-name, 
+.react-datepicker__day, 
+.react-datepicker__time-name {
+  color: white !important;
+}
+
+.react-datepicker__day:hover, 
+.react-datepicker__month-text:hover, 
+.react-datepicker__quarter-text:hover, 
+.react-datepicker__year-text:hover {
+  background-color: #374151 !important; /* bg-gray-700 */
+}
+
+.react-datepicker__day--selected, 
+.react-datepicker__day--in-selecting-range, 
+.react-datepicker__day--in-range, 
+.react-datepicker__month-text--selected, 
+.react-datepicker__month-text--in-selecting-range, 
+.react-datepicker__month-text--in-range, 
+.react-datepicker__quarter-text--selected, 
+.react-datepicker__quarter-text--in-selecting-range, 
+.react-datepicker__quarter-text--in-range, 
+.react-datepicker__year-text--selected, 
+.react-datepicker__year-text--in-selecting-range, 
+.react-datepicker__year-text--in-range {
+  background-color: #2563eb !important; /* bg-blue-600 */
+}
+
+.react-datepicker__day--keyboard-selected, 
+.react-datepicker__month-text--keyboard-selected, 
+.react-datepicker__quarter-text--keyboard-selected, 
+.react-datepicker__year-text--keyboard-selected {
+  background-color: #1e40af !important; /* bg-blue-800 */
+}
+
+.react-datepicker__day--disabled, 
+.react-datepicker__month-text--disabled, 
+.react-datepicker__quarter-text--disabled, 
+.react-datepicker__year-text--disabled {
+  color: #4b5563 !important; /* text-gray-600 */
+}
+
+.react-datepicker__navigation {
+  top: 0.75rem !important; /* top-3 */
+}
+
+.react-datepicker__navigation-icon::before {
+  border-color: #9ca3af !important; /* border-gray-400 */
+}
