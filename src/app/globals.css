@@ -24,3 +24,21 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Custom form styling for better input text visibility */
+.auth-input {
+  color: #1a202c !important;
+  font-weight: 500 !important;
+  background-color: rgb(255, 255, 255) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+  letter-spacing: 0.01em !important;
+}
+
+.auth-input:focus {
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.3), 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.auth-input::placeholder {
+  color: #a0aec0 !important;
+  opacity: 0.7 !important;
+}
