@@ -16,8 +16,6 @@ import {
   Cell,
   PieChart,
   Pie,
-  RadialBarChart,
-  RadialBar
 } from 'recharts';
 
 // Define types for our data
